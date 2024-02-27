@@ -639,7 +639,9 @@ span.green {
 .result_item:nth-child(3) .icon {
     background: #1D41FE;
 }
-
+.result .head_block {
+    margin-bottom: 0;
+}
 
 
 
