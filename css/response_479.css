@@ -76,6 +76,42 @@
     .problems_item-info-text {
         font-size: 17px;
     }
+    .reviews_item-name {
+        font-size: 18px;
+    }
+    .reviews_item-post {
+        font-size: 18px;
+    }
+    .need_bottom-icon {
+        display: none;
+    }
+    .need_bottom-text {
+        font-size: 18px;
+    }
+    .result_wrap, 
+    .offers_wrap {
+        padding: 10px;
+    }
+    .difference_item:nth-child(1) .difference_item-title {
+        font-size: 20px;
+    }
+    .problems_item-text {
+        font-size: 18px;
+    }
+    .header_button {
+        width: 100%;
+    }
+    .difference_item:nth-child(1) .difference_item-text {
+        font-size: 17px;
+    }
+    .difference_item-title, 
+    .need_item-title, 
+    .reviews_item-title {
+        margin-top: 10px;
+    }
+    .difference_item:nth-child(1) {
+        padding: 20px;
+    } 
 
 
 

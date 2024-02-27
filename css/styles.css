@@ -988,7 +988,7 @@ span.green {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    font-size: 24px;
+    font-size: inherit;
     font-weight: 600;
     line-height: 133.3%; 
 }
