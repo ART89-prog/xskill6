@@ -432,7 +432,6 @@ header {
     font-weight: 800;
     text-align: center;
     color: #fff;
-    margin-top: 25px;
 }
 .header_logos {
     display: flex;
@@ -808,7 +807,7 @@ span.green {
     height: 557px;
 }
 .trainer_info {
-    width: calc(100% - 597px);
+    width: calc(100% - 675px);
 }
 .trainer_info ul li {
     color: var(--text_color);
