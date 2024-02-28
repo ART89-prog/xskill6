@@ -37,7 +37,6 @@
     .offers_wrap {
         padding: 20px;
         flex-direction: column;
-        gap: 0;
     }
     .result_items, 
     .offers_items {

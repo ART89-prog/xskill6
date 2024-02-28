@@ -1018,10 +1018,12 @@ span.green {
     font-weight: 600;
     line-height: 133.3%;
 }
-.reviews_item-text span {
+.reviews_item-text,
+.reviews_item-text1,
+.reviews_item-text2 {
     display: inline-block;
 }
-.reviews_item-text span.hide {
+.reviews_item-text2.hide {
 	display: none;   
 }
 
