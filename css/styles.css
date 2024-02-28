@@ -597,7 +597,7 @@ span.green {
 }
 .result_item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     padding: 33px 18px 33px 40px;
     border-radius: 37px;
     box-shadow: 0px 9.38px 32.31px 0px rgba(0, 0, 0, 0.03);
@@ -651,7 +651,7 @@ span.green {
 }
 .difference_item {
     flex: 1 1 calc(25%);
-    padding: 45px 62px 70px 45px;
+    padding: 45px 25px 70px 45px;
     border-radius: 49px;
     box-shadow: 0px 9.38px 32.31px 0px rgba(0, 0, 0, 0.03);
     background: linear-gradient(225.00deg, rgb(52, 52, 52),rgb(37, 37, 37) 100%);
@@ -735,7 +735,7 @@ span.green {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 133.3%;
+    line-height: 39px;
     display: flex;
     align-items: flex-start;
     gap: 17px;
@@ -778,7 +778,7 @@ span.green {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 133.3%;
+    line-height: 39px;
     display: flex;
     align-items: flex-start;
     gap: 17px;
@@ -814,7 +814,7 @@ span.green {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 133.3%;
+    line-height: 39px;
     display: flex;
     align-items: flex-start;
     gap: 17px;
@@ -912,6 +912,7 @@ span.green {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    outline: 10px solid #252525;
 }
 .need_item-title {
     font-size: 32px;
@@ -1043,12 +1044,28 @@ span.green {
     box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
     border-radius: 49px;  
     cursor: pointer;  
+    z-index: 7;
+    position: relative;
 }
 .video .video_link {
     display: block;
     position: relative;
     overflow: hidden;
-    padding-bottom: 59.5%;       
+    padding-bottom: 59.5%;  
+    z-index: 2;    
+    box-shadow: 0px 9.37693px 32.3078px rgba(0, 0, 0, 0.03); 
+}
+.video .video_link:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(209.64deg, #343434 0%, #252525 100%);    
+    border-radius: 49px;
+    z-index: 5;
+    opacity: 0.4;
 }
 .video .video_link img {
     position: absolute;
@@ -1058,7 +1075,7 @@ span.green {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 49px;   
+    border-radius: 49px;  
 }
 .video .video_link .icon {
     width: 66px;
@@ -1071,9 +1088,8 @@ span.green {
     display: flex;
     align-items: center;
     justify-content: center;    
+    z-index: 10;
 }
-
-
 
 
 
